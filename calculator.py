@@ -1,5 +1,17 @@
 import math
 
+
+def square_root(a):
+    try:
+        if a < 0:
+            raise ValueError("square_root is undefined for negative numbers")
+        return math.sqrt(a)
+    except TypeError:
+        raise ValueError("square_root requires a number")
+
+
+def hypotenuse(a, b):
+    return math.hypot(a, b)
 def add(a, b):
     return a + b
 
