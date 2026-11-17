@@ -1,3 +1,6 @@
+# https://github.com/Leo-Dinhd/lab11--LTD---IMRS-
+# Partner 1: Leo Dinh
+# Partner 2: Isaac Reyes
 import math
 
 
@@ -33,3 +36,8 @@ def logarithm(a, b):
 
 def exponent(a, b):
     return a ** b
+
+mul = multiply
+div = divide
+exp = exponent
+sub = subtract
